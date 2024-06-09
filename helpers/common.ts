@@ -11,7 +11,7 @@ const getEnvVar = async <T>(varName: string, errorMessage: string): Promise<T> =
 }
 
 /** 
- * Get the basic information for this test to run, such as Environment or User Credentials.
+ * Get the basic information for this test to run, such as Environment or sensitive information.
  * The returned context is required by the framework. 
  */
 export const generateTestContext = async (): Promise<TestContext> => {
